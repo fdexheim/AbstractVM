@@ -1,0 +1,31 @@
+;TEST ADD
+push int8(12)
+push int8(11)
+add
+dump
+pop
+;TEST SUB
+push int32(12)
+push int32(11)
+sub
+dump
+pop
+;TEST MUL
+push float(10)
+push float(111)
+mul
+dump
+pop
+;TEST DIV
+push int16(8)
+push int16(2)
+div
+dump
+pop
+;TEST MOD
+push int32(55)
+push int32(10)
+mod
+dump
+pop
+exit
